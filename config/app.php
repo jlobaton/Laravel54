@@ -180,6 +180,8 @@ return [
         // App\Providers\BroadcastServiceProvider::class,
         App\Providers\EventServiceProvider::class,
         App\Providers\RouteServiceProvider::class,
+        Khill\Lavacharts\Laravel\LavachartsServiceProvider::class,
+
 
     ],
 
@@ -233,6 +235,7 @@ return [
         'Form' => Collective\Html\FormFacade::class,
         'Html' => Collective\Html\HtmlFacade::class, 
         'Excel' => Maatwebsite\Excel\Facades\Excel::class,       
+        'Lava' =>  Khill\Lavacharts\Laravel\LavachartsFacade::class,
 
     ],
 
